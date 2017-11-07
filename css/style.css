@@ -1,0 +1,284 @@
+/* RESET START */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #111;
+    font: 400 12px/1 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #111;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+select,
+select:hover {
+    color: inherit;
+    background: #fff;
+}
+
+option,
+option:hover {
+    color: inherit;
+    background: #fff;
+}
+
+::-webkit-input-placeholder {
+    transition: all .3s linear;
+    color: rgba(255, 255, 255, .8);
+}
+
+::-moz-placeholder {
+    transition: all .3s linear;
+    color: rgba(255, 255, 255, .8);
+}
+
+:-moz-placeholder {
+    transition: all .3s linear;
+    color: rgba(255, 255, 255, .8);
+}
+
+:-ms-input-placeholder {
+    transition: all .3s linear;
+    color: rgba(255, 255, 255, .8);
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+
+/* RESET END */
+
+
+/* DEFAULT CLASSES START */
+
+
+/* DEFAULT CLASSES END */
+
+
+/* DEFAULT COMPONENT START */
+
+
+/*.input-group {
+    position: relative;
+}
+
+.input-group+.input-group {
+    margin-top: 20px;
+}*/
+
+
+/*.user-auth-form {
+    max-width: 240px;
+    width: 100%;
+}*/
+
+
+/*.form-control {
+    border: 1px solid #49b871;
+    height: 50px;
+    width: 100%;
+    font-size: 17px;
+    color: rgba(255, 255, 255, .8);
+    background-color: transparent;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+}*/
+
+
+/*.input-group label {
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+
+.logo {
+    background: white;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 15px 50px;
+    transition: all .3s linear;
+}
+
+.btn.btn-default {
+    background-color: #0076c8;
+    color: #fff;
+}
+
+.btn.btn-default:hover {
+    box-shadow: 0 3px 10px #0076c8;
+}
+
+
+/*.btn.btn-ic {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.btn.btn-ic .fa {
+    font-size: 15px;
+    margin-right: 13px;
+}*/
+
+
+/*.btn.start {
+    background-color: #0076c8;
+    color: #fff;
+}*/
+
+
+/*.btn.start:hover {
+    box-shadow: 0 3px 10px #0076c8;
+}*/
+
+.btn.stop {
+    background-color: #dc4a38;
+    color: #fff;
+}
+
+.btn.stop:hover {
+    box-shadow: 0 3px 10px #dc4a38;
+}
+
+
+/* DEFAULT COMPONENT END */
+
+
+/* CUSTOM STYLE */
+
+.form-wrapper {
+    background: url('../img/login-bg-960x960.jpg') no-repeat center / cover;
+    height: 100vh;
+    box-shadow: 100vw 0 0 rgba(0, 0, 0, 0.75) inset;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 50px 0;
+}
+
+
+/*.logo {
+    margin-bottom: 45px;
+}
+
+.user-auth-form form .btn {
+    margin-top: 50px;
+}
+
+.other-auth-methods {
+    margin-top: 50px;
+}
+
+.other-auth-methods .btn {
+    margin-bottom: 10px;
+}*/
+
+
+/* CUSTOM STYLE END */
+
+canvas {
+    background: #36cb6c;
+    width: 640px;
+    height: 480px;
+}
+
+
+/* MEDIA */
+
+@media (min-width: 480px) {
+    .user-auth-form {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 600px) {
+    .user-auth-form {
+        max-width: 480px;
+    }
+}
+
+@media (min-width: 992px) {
+    .user-auth-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+    }
+}
